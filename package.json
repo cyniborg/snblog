@@ -1,0 +1,32 @@
+{
+  "name": "snowblog",
+  "version": "1.0.0",
+  "description": "Creating a simple blog with cms in Node",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon ./src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs",
+    "KoaJS",
+    "ReactJs"
+  ],
+  "author": "Robin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "knex": "^0.21.14",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-passport": "^4.1.3",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^10.0.0",
+    "koa-session": "^6.1.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
